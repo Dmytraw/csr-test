@@ -1,7 +1,7 @@
 import "./App.css";
 
 function App() {
-  const chunk = new Array(1000000).fill("");
+  const chunk = new Array(1000).fill("");
   return (
     <>
       {chunk.map((_, index) => (
